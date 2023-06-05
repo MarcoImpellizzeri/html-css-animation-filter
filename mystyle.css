@@ -54,3 +54,43 @@
     height: 30px;
     width: 30px;
 }
+
+/* esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+.ex-7-img {
+    transition: filter 1s;
+}
+
+.ex-7-img:hover {
+    filter: invert(100%) blur(5px);
+}
+
+/* esercizio 8 */
+
+.ex-8-img {
+    transition: border-radius 1s, filter 1s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: invert(100%) blur(0.2rem);
+}
+
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: border-radius 1s, filter 1s, width 1s;
+}
+
+.ex-9-img:hover {
+    width: 600px;
+    border-radius: 20px;
+    filter: invert(100%) hue-rotate(270deg);
+}
+
