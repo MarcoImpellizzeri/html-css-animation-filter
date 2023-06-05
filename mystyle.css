@@ -94,3 +94,194 @@
     filter: invert(100%) hue-rotate(270deg);
 }
 
+/* esercizio 10 */
+
+.ex-10-icon, .ex-11-icon {
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+
+    0%{
+        left: 0;
+        top: 0;
+        rotate: 0deg;
+    }
+
+    50%{
+        left: 0;
+        top: 0;
+        rotate: 180deg;
+    }
+
+    100%{
+        left: 0;
+        top: 0;
+        rotate: 360deg;
+    }
+}
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: return;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes return {
+
+    0%{
+        left: 0;
+        top: 0;
+        rotate: 0deg;
+    }
+
+    25%{
+        left: 0;
+        top: 0;
+        rotate: 90deg;
+    }
+
+    50%{
+        left: 0;
+        top: 0;
+        rotate: 180deg;
+    }
+
+    85%{
+        left: 0;
+        top: 0;
+        rotate: 270deg;
+    }
+
+    100%{
+        left: 0;
+        top: 0;
+        rotate: 0deg;
+    }
+}
+
+/* esercizio 12 */
+
+.ex-12-top-white {
+    animation-name: movment-top;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes movment-top {
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    50%{
+        left: calc(100% - 60px);
+        top: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-12-bottom-white {
+    animation-name: movment-bot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes movment-bot {
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+
+    50%{
+        right: calc(100% - 60px);
+        bottom: -10px;
+    }
+
+    100%{
+        right: 20%;
+        bottom: -10px;
+    }
+}
+
+/* esercizio 13 */
+
+.ex-13-top-white {
+    animation-name: movment-top2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes movment-top2 {
+    0%{
+        left: -10%;
+        top: -10%;
+    }
+
+    35%{
+        left: 100%;
+        top: -10%;
+    }
+
+    50%{
+        left: 100%;
+        top: 60px;
+    }
+
+    75%{
+        left: 0;
+        top: 60px;
+    }
+
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+.ex-13-bottom-white {
+    animation-name: movment-bot2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes movment-bot2 {
+    0%{
+        right: -10%;
+        bottom: -10%;
+    }
+
+    35%{
+        right: 80%;
+        bottom: -10%;
+    }
+
+    50%{
+        right: 80%;
+        bottom: 100%;
+    }
+
+    75%{
+        right: -10%;
+        bottom: 100%;
+    }
+
+    100%{
+        right: -10%;
+        bottom: -10%;
+    }
+}
